@@ -26,3 +26,56 @@ You can install the required libraries with:
 
 ```bash
 pip install requests colorama
+
+```
+
+### Windows
+1. Download and install Python from [python.org](https://www.python.org/downloads/).
+2. Open Command Prompt and install required dependencies:
+   ```bash
+   pip install requests
+   ```
+3. Clone or download this repository.
+4. Open Command Prompt in the project folder and run the script:
+   ```bash
+   python webhook_manager.py
+   ```
+
+### macOS
+1. Install Python via [Homebrew](https://brew.sh/) (if not already installed):
+   ```bash
+   brew install python
+   ```
+2. Install required dependencies:
+   ```bash
+   pip3 install requests
+   ```
+3. Clone or download this repository.
+4. Open Terminal in the project folder and run the script:
+   ```bash
+   python3 webhook_manager.py
+   ```
+
+### Linux (Ubuntu/Debian-based)
+1. Install Python and pip:
+   ```bash
+   sudo apt update
+   sudo apt install python3 python3-pip
+   ```
+2. Install required dependencies:
+   ```bash
+   pip3 install requests
+   ```
+3. Clone or download this repository.
+4. Open Terminal in the project folder and run the script:
+   ```bash
+   python3 webhook_manager.py
+   ```
+
+## Usage
+Once the script is running, follow the on-screen prompts to send messages, create, update, delete, or retrieve webhooks. Ensure you have the correct webhook URL to interact with the Discord server.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
